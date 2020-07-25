@@ -1,4 +1,4 @@
-package junitTest;
+package testJunit;
 
 import java.util.List;
 

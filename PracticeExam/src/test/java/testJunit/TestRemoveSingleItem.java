@@ -1,13 +1,13 @@
-package junitTest;
+package testJunit;
 
 import java.util.List;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
 
 import pages.TestPage;
 import util.BrowserFactory;

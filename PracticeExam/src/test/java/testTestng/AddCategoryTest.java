@@ -35,10 +35,10 @@ public class AddCategoryTest {
 		List<WebElement> categoryList = testPage.validateCategoryList();
 		System.out.println(categoryList.get(1).getText());
 		// If Item is available check if selected or enable else print a message
-//			for (int i = 0; i < categoryList.size(); i++) {
-//				Assert.assertEquals(categoryList.get(i).getText(),"KSharma5");
-//				System.out.println(categoryList.get(i).getText());
-//			}	
+			for (int i = 0; i < categoryList.size(); i++) {
+				Assert.assertEquals(categoryList.get(i).getText(),"KSharma5");
+				System.out.println(categoryList.get(i).getText());
+			}	
 	}
 
 }
